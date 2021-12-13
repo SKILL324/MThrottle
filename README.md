@@ -1,9 +1,13 @@
 # MThrottle
-vJoy Feeder for Mouse Steering exclusively, with WinAPI Interface, Write on C/C++.
-Inspired (Freepie, Glovepie, MouseSteering).
+vJoy Feeder for Mouse Steering exclusively, with WinAPI Interface.
+Inspired on (Freepie, Glovepie, MouseSteering).
+
+## Dependencies
+- https://sourceforge.net/projects/vjoystick/ > vJoy (Virtual Joystick)
 
 ## Install
-Just open the Setup.msi
+- Configure vJoy to 32 buttons
+- Just open the SetupMthrottle1.msi
 
 ## How It works
 When the MThrottle.exe is lauched, The Interface Open hided on Windows Tray (Left-Click to Show/Hide, Rigth-Click to Close).
@@ -19,12 +23,19 @@ When the MThrottle.exe is lauched, The Interface Open hided on Windows Tray (Lef
 - CursorTop : Cursor will stay on the TOP SCREEN
 - CursorBottom : Cursor will stay on the BOTTOM SCREEN
 
-**DEFAULT BUTTONS/AXIS**
-- Button1 : MOUSE MOVE (Single Steering)
-- Button2 : MOUSE LEFT CLICK (THROTTLE)
-- Button3 : MOUSE RIGHT CLICK (BRAKE)
-- Button4 : MOUSE MOVE (DoubleLeft Steering)
-- Button5 : MOUSE MOVE (DoubleRight Steering)
+**BUTTONS/AXIS**
+- All Enable : Turn On all Button/Axis
+- When the Button/Axis is selected, you can set the Keyboard or Mouse keys on the right Button
+- When the Button/Axis is selected, only that Button/Axis will receive input so before Set all of them Recommend set 'All Enable'
+
+**DEFAULT AXIS**
+- (X) : MOUSE MOVE (Single Steering)
+- (Y) : MOUSE MOVE (Dual Steering 1)
+- (Z) : MOUSE MOVE (Dual Steering 2)
+- (Rx) : (THROTTLE)
+- (Ry) : (BRAKE)
+- (Rz) : (CLUTH)
+- (sl0) : (HANDBRAKE)
 
 **ALSO**
 - (ALT + F10) : Emulation Turn On/Off
