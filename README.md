@@ -20,8 +20,9 @@ When the MThrottle.exe is lauched, The Interface Open hided on Windows Tray (Lef
 - DoubleRight : 2 Axis for Steering but only the RIGHT works
 
 **CURSOR**
-- CursorTop : Cursor will stay on the TOP SCREEN
-- CursorBottom : Cursor will stay on the BOTTOM SCREEN
+- CursorTop : Cursor will stay on the TOP
+- CursorBottom : Cursor will stay on the BOTTOM
+- CursorCenter : Cursor will stay on the CENTER
 
 **BUTTONS/AXIS**
 - All Enable : Turn On all Button/Axis
