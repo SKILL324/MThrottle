@@ -1,7 +1,8 @@
 # MThrottle
-![github-large](https://github.com/SKILL324/MThrottle/blob/main/MThrottle.png?raw=true)
 vJoy Feeder for Mouse Steering exclusively, with WinAPI Interface.
-Inspired on (Freepie, Glovepie, MouseSteering).
+Inspired on (Freepie, Glovepie, MouseSteering).<br/>
+![github-large](https://github.com/SKILL324/MThrottle/blob/main/MThrottle.png?raw=true)
+
 
 ## Dependencies
 - https://sourceforge.net/projects/vjoystick/ > vJoy (Virtual Joystick)
